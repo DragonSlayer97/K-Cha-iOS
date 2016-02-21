@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "K-Cha/TimerCell.swift"
+            timestampString = "477725425.161673"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "TimerCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "K_Cha.TimerCell.__deallocating_deinit"
+                  moduleName = "K-Cha"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brian/Documents/Projects/UniSnap/K-Cha/K-Cha/TimerCell.swift"
+                  timestampString = "477729914.954988"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "K_Cha.TimerCell.init (K_Cha.TimerCell.Type)(style : __C.UITableViewCellStyle, reuseIdentifier : Swift.Optional&lt;Swift.String&gt;) -&gt; K_Cha.TimerCell"
+                  moduleName = "K-Cha"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brian/Documents/Projects/UniSnap/K-Cha/K-Cha/TimerCell.swift"
+                  timestampString = "477729914.955298"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "K_Cha.TimerCell.init (K_Cha.TimerCell.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;K_Cha.TimerCell&gt;"
+                  moduleName = "K-Cha"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/brian/Documents/Projects/UniSnap/K-Cha/K-Cha/TimerCell.swift"
+                  timestampString = "477729914.955513"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

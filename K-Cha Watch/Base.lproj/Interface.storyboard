@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="9532" systemVersion="15A284" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="9515"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="K_Cha_Watch" customModuleProvider="target">
+                    <items>
+                        <table alignment="left" id="QmL-0n-lJ1">
+                            <items>
+                                <tableRow id="dOF-O3-TBa">
+                                    <group key="rootItem" width="1" alignment="left" id="1Dw-7K-WJm">
+                                        <items>
+                                            <label alignment="center" verticalAlignment="center" accessibilityLabel="Arms 💪" text="Arms 💪" textAlignment="left" id="Rwx-le-fGh"/>
+                                        </items>
+                                    </group>
+                                </tableRow>
+                            </items>
+                        </table>
+                        <table alignment="left" id="06A-v9-kUS">
+                            <items>
+                                <tableRow id="KgG-s5-mRn">
+                                    <group key="rootItem" width="1" alignment="left" id="Q7L-T7-sRH">
+                                        <items>
+                                            <label width="59" alignment="center" verticalAlignment="center" text="Legs 🏃" textAlignment="left" id="Flk-xl-hkR"/>
+                                        </items>
+                                    </group>
+                                </tableRow>
+                            </items>
+                        </table>
+                        <table alignment="left" id="q0c-23-kaz">
+                            <items>
+                                <tableRow id="lvS-JP-Lqj">
+                                    <group key="rootItem" width="1" alignment="left" id="fiy-WD-MGO">
+                                        <items>
+                                            <label width="59" height="19.5" alignment="center" verticalAlignment="center" text="Core 👊" textAlignment="left" id="cPX-QP-Nm2"/>
+                                        </items>
+                                    </group>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Arm Day Bruh 💪" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="K_Cha_Watch" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+    </scenes>
+</document>
