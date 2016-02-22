@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>K-Cha Watch.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>K-Cha.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>Notification - K-Cha Watch.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>D3BFB37B1C7839EC001F6E91</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D3BFB3921C7839EC001F6E91</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D3BFB39D1C7839EC001F6E91</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D3BFB41A1C78F8D5001F6E91</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

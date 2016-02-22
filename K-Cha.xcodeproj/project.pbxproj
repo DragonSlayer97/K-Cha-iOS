@@ -18,14 +18,6 @@
 		D3BFB3B11C783D89001F6E91 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BFB3B01C783D89001F6E91 /* ListViewController.swift */; };
 		D3BFB3B31C78D38C001F6E91 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BFB3B21C78D38C001F6E91 /* MenuViewController.swift */; };
 		D3BFB3B51C78DF73001F6E91 /* WorkoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BFB3B41C78DF73001F6E91 /* WorkoutCell.swift */; };
-		D3BFB41F1C78F8D5001F6E91 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3BFB41D1C78F8D5001F6E91 /* Interface.storyboard */; };
-		D3BFB4281C78F8D5001F6E91 /* K-Cha Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D3BFB4271C78F8D5001F6E91 /* K-Cha Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		D3BFB42F1C78F8D5001F6E91 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BFB42E1C78F8D5001F6E91 /* InterfaceController.swift */; };
-		D3BFB4311C78F8D5001F6E91 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BFB4301C78F8D5001F6E91 /* ExtensionDelegate.swift */; };
-		D3BFB4331C78F8D5001F6E91 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BFB4321C78F8D5001F6E91 /* NotificationController.swift */; };
-		D3BFB4351C78F8D5001F6E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BFB4341C78F8D5001F6E91 /* Assets.xcassets */; };
-		D3BFB4391C78F8D5001F6E91 /* K-Cha Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D3BFB41B1C78F8D5001F6E91 /* K-Cha Watch.app */; };
-		D3BFB4431C797F57001F6E91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3BFB4201C78F8D5001F6E91 /* Assets.xcassets */; };
 		D3BFB4451C7982CC001F6E91 /* TimerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BFB4441C7982CC001F6E91 /* TimerCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,41 +36,15 @@
 			remoteGlobalIDString = D3BFB37B1C7839EC001F6E91;
 			remoteInfo = "K-Cha";
 		};
-		D3BFB4291C78F8D5001F6E91 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D3BFB3741C7839EC001F6E91 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D3BFB4261C78F8D5001F6E91;
-			remoteInfo = "K-Cha Watch Extension";
-		};
-		D3BFB4371C78F8D5001F6E91 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D3BFB3741C7839EC001F6E91 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D3BFB41A1C78F8D5001F6E91;
-			remoteInfo = "K-Cha Watch";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		D3BFB43D1C78F8D5001F6E91 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				D3BFB4281C78F8D5001F6E91 /* K-Cha Watch Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D3BFB4411C78F8D5001F6E91 /* Embed Watch Content */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				D3BFB4391C78F8D5001F6E91 /* K-Cha Watch.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,17 +69,6 @@
 		D3BFB3B01C783D89001F6E91 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		D3BFB3B21C78D38C001F6E91 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		D3BFB3B41C78DF73001F6E91 /* WorkoutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WorkoutCell.swift; sourceTree = "<group>"; };
-		D3BFB41B1C78F8D5001F6E91 /* K-Cha Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "K-Cha Watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3BFB41E1C78F8D5001F6E91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		D3BFB4201C78F8D5001F6E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D3BFB4221C78F8D5001F6E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D3BFB4271C78F8D5001F6E91 /* K-Cha Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "K-Cha Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3BFB42D1C78F8D5001F6E91 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
-		D3BFB42E1C78F8D5001F6E91 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
-		D3BFB4301C78F8D5001F6E91 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
-		D3BFB4321C78F8D5001F6E91 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
-		D3BFB4341C78F8D5001F6E91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D3BFB4361C78F8D5001F6E91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3BFB4441C7982CC001F6E91 /* TimerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,13 +94,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3BFB4241C78F8D5001F6E91 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -155,8 +103,6 @@
 				D3BFB37E1C7839EC001F6E91 /* K-Cha */,
 				D3BFB3961C7839EC001F6E91 /* K-ChaTests */,
 				D3BFB3A11C7839EC001F6E91 /* K-ChaUITests */,
-				D3BFB41C1C78F8D5001F6E91 /* K-Cha Watch */,
-				D3BFB42B1C78F8D5001F6E91 /* K-Cha Watch Extension */,
 				D3BFB37D1C7839EC001F6E91 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -167,8 +113,6 @@
 				D3BFB37C1C7839EC001F6E91 /* K-Cha.app */,
 				D3BFB3931C7839EC001F6E91 /* K-ChaTests.xctest */,
 				D3BFB39E1C7839EC001F6E91 /* K-ChaUITests.xctest */,
-				D3BFB41B1C78F8D5001F6E91 /* K-Cha Watch.app */,
-				D3BFB4271C78F8D5001F6E91 /* K-Cha Watch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -209,37 +153,6 @@
 			path = "K-ChaUITests";
 			sourceTree = "<group>";
 		};
-		D3BFB41C1C78F8D5001F6E91 /* K-Cha Watch */ = {
-			isa = PBXGroup;
-			children = (
-				D3BFB41D1C78F8D5001F6E91 /* Interface.storyboard */,
-				D3BFB4201C78F8D5001F6E91 /* Assets.xcassets */,
-				D3BFB4221C78F8D5001F6E91 /* Info.plist */,
-			);
-			path = "K-Cha Watch";
-			sourceTree = "<group>";
-		};
-		D3BFB42B1C78F8D5001F6E91 /* K-Cha Watch Extension */ = {
-			isa = PBXGroup;
-			children = (
-				D3BFB42E1C78F8D5001F6E91 /* InterfaceController.swift */,
-				D3BFB4301C78F8D5001F6E91 /* ExtensionDelegate.swift */,
-				D3BFB4321C78F8D5001F6E91 /* NotificationController.swift */,
-				D3BFB4341C78F8D5001F6E91 /* Assets.xcassets */,
-				D3BFB4361C78F8D5001F6E91 /* Info.plist */,
-				D3BFB42C1C78F8D5001F6E91 /* Supporting Files */,
-			);
-			path = "K-Cha Watch Extension";
-			sourceTree = "<group>";
-		};
-		D3BFB42C1C78F8D5001F6E91 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				D3BFB42D1C78F8D5001F6E91 /* PushNotificationPayload.apns */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -255,7 +168,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				D3BFB4381C78F8D5001F6E91 /* PBXTargetDependency */,
 			);
 			name = "K-Cha";
 			productName = "K-Cha";
@@ -298,40 +210,6 @@
 			productReference = D3BFB39E1C7839EC001F6E91 /* K-ChaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		D3BFB41A1C78F8D5001F6E91 /* K-Cha Watch */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D3BFB43E1C78F8D5001F6E91 /* Build configuration list for PBXNativeTarget "K-Cha Watch" */;
-			buildPhases = (
-				D3BFB4191C78F8D5001F6E91 /* Resources */,
-				D3BFB43D1C78F8D5001F6E91 /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D3BFB42A1C78F8D5001F6E91 /* PBXTargetDependency */,
-			);
-			name = "K-Cha Watch";
-			productName = "K-Cha Watch";
-			productReference = D3BFB41B1C78F8D5001F6E91 /* K-Cha Watch.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		D3BFB4261C78F8D5001F6E91 /* K-Cha Watch Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D3BFB43A1C78F8D5001F6E91 /* Build configuration list for PBXNativeTarget "K-Cha Watch Extension" */;
-			buildPhases = (
-				D3BFB4231C78F8D5001F6E91 /* Sources */,
-				D3BFB4241C78F8D5001F6E91 /* Frameworks */,
-				D3BFB4251C78F8D5001F6E91 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "K-Cha Watch Extension";
-			productName = "K-Cha Watch Extension";
-			productReference = D3BFB4271C78F8D5001F6E91 /* K-Cha Watch Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -344,7 +222,7 @@
 				TargetAttributes = {
 					D3BFB37B1C7839EC001F6E91 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 4T79TES2KN;
+						DevelopmentTeam = 3SY37A7D56;
 					};
 					D3BFB3921C7839EC001F6E91 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -355,14 +233,6 @@
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 4T79TES2KN;
 						TestTargetID = D3BFB37B1C7839EC001F6E91;
-					};
-					D3BFB41A1C78F8D5001F6E91 = {
-						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 4T79TES2KN;
-					};
-					D3BFB4261C78F8D5001F6E91 = {
-						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = 4T79TES2KN;
 					};
 				};
 			};
@@ -382,8 +252,6 @@
 				D3BFB37B1C7839EC001F6E91 /* K-Cha */,
 				D3BFB3921C7839EC001F6E91 /* K-ChaTests */,
 				D3BFB39D1C7839EC001F6E91 /* K-ChaUITests */,
-				D3BFB41A1C78F8D5001F6E91 /* K-Cha Watch */,
-				D3BFB4261C78F8D5001F6E91 /* K-Cha Watch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -410,23 +278,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3BFB4191C78F8D5001F6E91 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3BFB4431C797F57001F6E91 /* Assets.xcassets in Resources */,
-				D3BFB41F1C78F8D5001F6E91 /* Interface.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D3BFB4251C78F8D5001F6E91 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3BFB4351C78F8D5001F6E91 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,16 +314,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3BFB4231C78F8D5001F6E91 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D3BFB4331C78F8D5001F6E91 /* NotificationController.swift in Sources */,
-				D3BFB4311C78F8D5001F6E91 /* ExtensionDelegate.swift in Sources */,
-				D3BFB42F1C78F8D5001F6E91 /* InterfaceController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -485,16 +326,6 @@
 			isa = PBXTargetDependency;
 			target = D3BFB37B1C7839EC001F6E91 /* K-Cha */;
 			targetProxy = D3BFB39F1C7839EC001F6E91 /* PBXContainerItemProxy */;
-		};
-		D3BFB42A1C78F8D5001F6E91 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D3BFB4261C78F8D5001F6E91 /* K-Cha Watch Extension */;
-			targetProxy = D3BFB4291C78F8D5001F6E91 /* PBXContainerItemProxy */;
-		};
-		D3BFB4381C78F8D5001F6E91 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D3BFB41A1C78F8D5001F6E91 /* K-Cha Watch */;
-			targetProxy = D3BFB4371C78F8D5001F6E91 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -513,14 +344,6 @@
 				D3BFB38C1C7839EC001F6E91 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		D3BFB41D1C78F8D5001F6E91 /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D3BFB41E1C78F8D5001F6E91 /* Base */,
-			);
-			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -611,9 +434,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "K-Cha/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.brianuzi.K-Cha";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DragonSlayer97.K-Cha";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -622,9 +446,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "K-Cha/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.brianuzi.K-Cha";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DragonSlayer97.K-Cha";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -677,66 +502,6 @@
 			};
 			name = Release;
 		};
-		D3BFB43B1C78F8D5001F6E91 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "K-Cha Watch Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.brianuzi.K-Cha.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.1;
-			};
-			name = Debug;
-		};
-		D3BFB43C1C78F8D5001F6E91 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = "K-Cha Watch Extension/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.brianuzi.K-Cha.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.1;
-			};
-			name = Release;
-		};
-		D3BFB43F1C78F8D5001F6E91 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				IBSC_MODULE = K_Cha_Watch_Extension;
-				INFOPLIST_FILE = "K-Cha Watch/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.brianuzi.K-Cha.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.1;
-			};
-			name = Debug;
-		};
-		D3BFB4401C78F8D5001F6E91 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				IBSC_MODULE = K_Cha_Watch_Extension;
-				INFOPLIST_FILE = "K-Cha Watch/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.brianuzi.K-Cha.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 2.1;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -756,6 +521,7 @@
 				D3BFB3A91C7839EC001F6E91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3BFB3AA1C7839EC001F6E91 /* Build configuration list for PBXNativeTarget "K-ChaTests" */ = {
 			isa = XCConfigurationList;
@@ -764,6 +530,7 @@
 				D3BFB3AC1C7839EC001F6E91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D3BFB3AD1C7839EC001F6E91 /* Build configuration list for PBXNativeTarget "K-ChaUITests" */ = {
 			isa = XCConfigurationList;
@@ -772,22 +539,7 @@
 				D3BFB3AF1C7839EC001F6E91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		D3BFB43A1C78F8D5001F6E91 /* Build configuration list for PBXNativeTarget "K-Cha Watch Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D3BFB43B1C78F8D5001F6E91 /* Debug */,
-				D3BFB43C1C78F8D5001F6E91 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		D3BFB43E1C78F8D5001F6E91 /* Build configuration list for PBXNativeTarget "K-Cha Watch" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D3BFB43F1C78F8D5001F6E91 /* Debug */,
-				D3BFB4401C78F8D5001F6E91 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
